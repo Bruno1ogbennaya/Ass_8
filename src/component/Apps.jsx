@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import SearchField from './SearchField';
 import GifCard from './GifCard';
 
-const API_KEY = 'YOUR_API_KEY';
+const API_KEY = 'CEO9wE9aMwsOsjHDKf9DAWI3XEfBfPzA';
 
 function Apps() {
   const [gifs, setGifs] = useState([]);
