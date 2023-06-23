@@ -50,7 +50,9 @@ function Apps() {
 
   return (
     <div>
-      <h1>GIPHY App</h1>
+      <header>
+      <h1>GIPHY APP</h1>
+      </header>
       <SearchField onSearch={handleSearch} />
       <RandomSearchButton handleRandomSearch={handleRandomSearch} />
       <div>
